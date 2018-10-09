@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{ width:85%; margin:0 auto; overflow:hidden;}
+.left1{ width:33.33%; float:left;}
+.right1{ width:66.67%; float:left;}
+.height{ height:400px;}
+.jianjie img, .jishu img{ width:100%;}
+.jianjie , .gonggao, .xinwen, .bottom{margin:40px 10px;}
+.title{ display:block; border-bottom:3px #eee solid; color:#999; padding-bottom:5px; margin-bottom:10px;}
+.title span{ border-bottom:3px #069 solid; color:#000;padding-bottom:5px; margin-right:10px; font-size:22px;  }
+.jianjie p, .jishu p{line-height:22px; margin-top:5px;}
+.zuhe a{display:block;border-bottom:1px #eee dashed; color:#000; line-height:40px;}
+.zuhe a span{ font-size:14px; color:#C00;}
+
+.xinwen{position:relative;}
+.more{ position:absolute; top:8px; right:2px; border:1px solid #eee; font-size:10px; border-radius:5px; padding:2px; color:#999}
+
+.xinwen .zuhe{ position:absolute; top:40px; right:0px;}
+.jishu,.caigou{ float:left; width:48.5%;}
+.jishu{ margin-right:10px;}
+.caigou{ margin-left:10px;}
+.jishu p span{ color:#C00;}
+.link a{ display:block; line-height:40px; color:#000;}
+.link + a{ display:block; background-color:#CCC;color:#000; line-height:40px; font-size:18px; text-align:center;}
+
+.zhanshi{width:85%; margin:0 auto;position:relative;}
+.youqing{width:85%; margin:0 auto;}
+.youqing img{margin:10px;}
+
+/*主页样式*/
+a{text-decoration:none;}
+li{ list-style:none;}
+#banner li,#banner1 li{float:left;}
+#banner li img,#banner1 li img{display:block;}
+#banner{ position:absolute;width:1480px; height:277px; }
+#banner1{ position:absolute; width:2800px; height:207px;}
+#banner1 li img{ border:#999 1px solid; padding:4px; margin:10px;}
+
+#buttons span{ cursor:pointer; float:left; margin-right:5px; width:10px; height:10px; border-radius:50%; background-color:#333;}
+#buttons .on{background:orangered;}
+
+.arrow{ cursor:pointer; display:none; width:40px; height:40px; line-height:40px; text-align:center; font-size:36px; font-weight:bold; position:absolute; z-index:200; top:130px; background:RGBA(0,0,0,.3); color:#fff;}
+#prev1,#prev2{ left:10px;}
+#next1,#next2{ right:10px;}
+
+#container{ position:relative;width:370px; height:277px; overflow:hidden;  }
+#buttons{  position:absolute; height:10px; width:100px; bottom:20px; left:47%; z-index:100;}
+#container1{ position:relative; width:1120px; height:207px; background-color: #F3F3F3;overflow:hidden; }
+
+#container:hover .arrow,#container1:hover .arrow{ display:block;}
+
+/*其他页样式*/
+.tupian img{width:85%; }
+.tupian{text-align:center; margin-bottom:30px;}
+
+.neirong{width:82%; margin:0 auto; overflow:hidden;}
+.nr_left{width:20%; float:left;text-align:center; }
+.nr_left h3,.nr_left ul li{border:1px #CCCCCC solid; margin:0px;}
+.nr_left ul li{ border-top:hidden; line-height:40px;background-color: #F6F6F6;}
+.nr_left ul li a{ font-size:16px;}
+.nr_left h3{line-height:45px; background-color:#005197; color:#FFF; border:1px #005197 solid; }
+.nr_right{width:80%;float:right;}
+.nr_right>img{ width:95%; margin-left:30px;}
+.nr_right h4{margin-left:30px; border-bottom:#005197 1px solid; color:#005197; padding-bottom:16px;}
+.nr_right > p{ margin-left:30px; line-height:30px; text-indent:2em;}
+.nr_right a{margin-left:30px; font-size:16px; font-weight:bold;color: #666; line-height:40px;}
+.nr_right a:hover{color:#C00;}
+.nr_right span{ float:right; margin-right:0px; margin-top:5px;}
+.jiaodai img{ width:50%; margin-left:30px; border:1px #CCCCCC solid; padding:3px;}
+.jiaodai1{float:right; width:44%;}
+.jiaodai1 h3{border-bottom:1px solid #CCC; margin-bottom:0; padding-bottom:15px;}
+.jiaodai1 p{border:1px solid #CCC; border-top:none; margin:0; padding:8px;}
+.jiaodai{margin-bottom:20px; }
+
+.pagination{ margin-left:38%;}
+
+
+
+
+
+	
